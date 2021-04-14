@@ -1,0 +1,55 @@
+ 
+ ------------COMANDO NVDA--------------
+ 
+ Se pressionamos a tecla "K", iremos navegar entre todos os links disponíveis na página.
+
+ Caso você queira voltar para o link anterior, basta pressionar "Shift + K".
+
+ Normalmente os destaques estão na tag <h1>, <h2> 
+
+ usuário navega entre os títulos da página utilizando a tecla "H".
+
+  A letra "TAB" navega entre todo o conteudo do site
+
+ A letra "G" navega entre as imagens do site
+
+ A letra "L" navega entre as listas UL do site
+
+ A letra "F" Navega entre os formularios
+
+
+
+ -----------Dicas------------------------
+
+ ao se utilizar svg, é recomendado o uso de title ao inves de alt para que o leitor de tela possa ler apropriadamente
+
+ a propriedade longdesc pode ser aplicada para comentarios longos em um alt
+
+o atributo alt sem parametros fará com que o leitor não leia a imagem
+
+o css influencia altamente na leitura do SVG, então sempre tomar cuidado
+
+sempre utilizar for e id para questões de acessibilidade em leitores de tela
+
+sempre que utilizar o hover, utiliza o focus junto para nao ocasionar problemas ao leitor
+
+o atributo readonly é recomendado no lugar de disabled para formularios não acessaveis
+
+o display: none além dele esconder visualmente, ele esconde do visualizador de tela
+
+left -9999 é uma forma de criar um css infinito, para ter certeza que algo nao vai aparecer na tela
+
+ARIAS : pacote de expansão do html para mudar o compartamento do html
+
+aria-labelled-by : comando no html para rotular uma tag, o melhor comando para visualizar um conteudo, mas o leitor de tela necessita de outro
+
+role = atribuir um papel a um elemento, que pode ser diferente do que ele ja é
+
+controls = habilita os controles de um video dentro de sua tag especifica
+
+track = habilita a colocação de uma legenda dentro da sua tag de video, tendo como a legenda no formato vtt
+
+existe um arquivo js chamado Inert (https://github.com/WICG/inert/blob/main/src/inert.js) esse arquivo é capaz de tirar o foco
+ao trabalhar com acessibilidade
+
+uma biblioteca interessante quando se trabalha com modais é a Sweet Alert (https://sweetalert2.github.io/)
